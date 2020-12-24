@@ -1,0 +1,173 @@
+
+@media all and (min-width: 991px){
+	.div_table{
+		display: table;         
+		width: 100%;         
+		background-color: white;         
+		border: 1px solid #666666;         
+		margin-bottom: 20px;
+	}
+
+	.div_table > .div_tbody > .accordion .card-body > .div_table_row > .div_table_row:first-of-type, .div_table > .div_thead > .div_table_row{
+		width: 100%;
+		clear: both;
+		display: flex;
+
+	}
+	.div_table > .div_tbody > .div_table_row > .div_table_row:first-of-type, .div_table > .div_thead > .div_table_row{
+		width: 100%;
+		clear: both;
+		display: flex;
+
+	}
+
+	.div_table > .div_thead, .div_table > .div_tbody{
+		border-style: collapse;
+		border:1px solid #666;
+	}
+	.div_table .div_tbody > .div_table_row {
+		display: table;
+		width: 100%;
+		clear: both;
+		border:solid 1px #ccc;
+	}
+	.div_table .div_tbody > .white{
+		background-color: transparent;
+	}
+	.div_table .div_tbody > .focus{
+		background-color: transparent;
+	}
+	.div_table .div_tbody > .div_table_row:not(.focus):not(.white){
+		background-color: rgba(0, 0, 0, 0.28);
+	}
+
+	 .div_table_row:last-child{
+	 	background-color: transparent !important;
+
+	 }
+	.div_table  .div_table_row > .div_table_col_head{
+		border-style: collapse;
+		border-left:1px solid #666;
+	}
+	.div_table  .div_table_row > .div_table_col{
+		float: left; /* fix for  buggy browsers */
+		display: table-cell;
+		width: auto;
+		padding: 6px 10px;
+
+	}
+	.div_table .div_table_row > .additionals_div > div {
+		display: inline-block;
+		width: 50%;
+		border-left:solid 1px #ccc;
+		padding: 6px 12px;
+	}
+	.div_table  .div_table_row > .div_table_col{
+		border-left:solid 1px #ccc;
+		border-bottom:1px solid #ccc;
+	}
+	.div_table  .div_table_row > .additionals_div:last-of-type{
+
+		border-bottom:1px solid #ccc;
+
+	}
+
+	.div_table  .div_table_row > .done_div{
+		width: 7%;
+		flex-grow: 1;
+		max-width: 50px !important;
+		text-align: center;
+	}
+	.div_table  .div_table_row > .done_div > input{
+
+	}
+
+
+	.div_table  .div_table_row > .wbs_div{
+		width: 7%;
+		flex-grow: 1;
+		max-width: 50px !important;
+	}
+	.div_table  .div_table_row > .wbs_div > input{
+		width: 100%;
+		text-align: center;
+	}
+
+	.div_table  .div_table_row > .workName_div{
+		width: 27%;
+		flex-grow: 3;
+	}
+	.div_table  .div_table_row > .workName_div > input{
+		width: 100%;
+	}
+
+	.div_table  .div_table_row > .workRatio_div{
+		width: 14%;
+		flex-grow: 2;
+		max-width: 105px !important;
+		text-align: center;
+	}
+	.div_table  .div_table_row > .workRatio_div > .workRatio_point_div > input{
+		width: 100%;
+	}
+	.workRatio_point_div{
+		margin-bottom: 5px;
+		width: 95%;
+		
+		flex-grow: 1;
+	}
+	.workRatio_percentage_div{
+		
+		width: 95%;
+		flex-grow: 1;
+	}
+	
+	.div_table  .div_table_row > .progress_div{
+		width: 10%;
+		flex-grow: 1;
+		max-width: 75px !important;
+	}
+	.div_table  .div_table_row > .progress_div > input{
+		width: 100%;
+	}
+
+	.div_table  .div_table_row > .assigned_div{
+		width: 19%;
+		flex-grow: 1;
+	}
+	.div_table  .div_table_row > .assigned_div > select{
+		width: 100%;
+	}
+
+	.div_table  .div_table_row > .remarks_div{
+		width: 16%;
+		flex-grow: 2;
+	}
+
+	.div_table  .div_table_row > .remarks_div > input{
+		width: 100%;
+	}
+	.div_table .div_table_row > .div_add_works{
+		width: 100%;
+
+	}
+	.div_table .div_table_row > .div_add_works > .add_works{
+		padding: 2px 6px;
+
+	}
+	.div_table .div_table_row > .additionals_div{
+		width: 100%;
+	}
+	.div_table .div_table_row > .div_add_works > label{
+		cursor: pointer;
+	}
+	.target_SD_div, .target_ED_div, .actual_SD_div, .actual_ED_div{
+		display: inline-block;
+		width: 50%;
+		flex-grow: 2;
+	}
+	.target_SD_div > input, .target_ED_div > input, .actual_SD_div > input, .actual_ED_div > input{
+		max-width: 90%;
+
+	}
+}

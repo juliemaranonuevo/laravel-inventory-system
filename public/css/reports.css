@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+  }
+
+  #body td, th {
+    border: 1px solid black;
+    font-family:  Sans Serif;
+    font-size: 11pt;
+  }
+  
+  th {
+      text-align: center;
+      font-size: 12pt;
+  }
+  
+  @media print {
+      .page-break {
+          clear: both;
+          page-break-after: always;
+      }
+  }
+
+  .tr-sticker td, .tr-sticker th {
+      font-size: 11px !important;
+  }
+
+  .tr-sticker th {
+      background: #CECECE
+  }
+
+  
